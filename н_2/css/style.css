@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header {
+	  padding: 50px;
+	  header: 170px;
+}
+.logo {
+      font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;	
+	  font-size: 64px;
+	  color: #2e2e2e; 
+	  margin: 32px 42px;
+}
+li{
+	   list-style-type: none;
+}
+
+.nav  li {
+      float:left;	
+	  padding:  10px 85px 10px 52px; 
+	  background-color:#575656;
+	  color:#f7f7f7;
+	  border: 1px solid #575656;
+}
+ .nav li:hover{
+      background:#3e3e3e;
+      border-left: 1px solid #838383; 	  
+	  border-right: 1px solid #838383;
+}
+
+.sidebar_menu {
+	  float:left;
+	  width: 30%;
+	  margin: 30px 5px;
+	  line-height: 25px; 
+	 
+}
+.sidebar_menu li {
+      border: 1px solid grey;
+	  padding: 10px 20px 10px 10px;
+	  background: #ffffff;	
+}
+.sidebar_menu li:hover{
+	background-color: #f7f7f7;
+	
+}
+.content{
+      width: 50%;	
+	  float:right;
+	  margin: 44px 150px 15px 52px;
+}
+.footer  {
+     clear: both;
+	 
+	 
+}
+.footer li {
+	  float: left;
+	 padding: 10px 85px 10px 52px;	
+	 background: #e1e1e1;
+}
