@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+.wrapper {
+	position: relative;
+  /*position: relative;*/
+}
+.box {
+  position: absolute;	
+  width: 1300px;	
+  height: 1050px;
+  background: url(file:///D|/fe/н_3/images/bg.jpg)
+}
+.container {
+	position: absolute;
+	width: 1000px;
+	height: 990px;
+	margin: 38px 130px 35px 153px;
+	background-color: white;
+}
+.header {
+	position: relative;
+	width: 1000px;
+	height: 175px;
+	padding-top: 0px;
+	margin-top: 0px;
+	top: 0px;
+}
+.logo {
+  width: 30%
+}
+.logo img {
+  float: left;	
+  overflow: hidden; 
+  margin: 5px 720px 85px 30px; 	
+}
+.contacts {
+	position: absolute;
+	float: right;
+	margin-top: 5px;
+	margin-right: 35px;
+	margin-left: 744px;
+	margin-bottom: 150px;
+	padding-top: 2px;
+}
+li {
+  list-style-type: none;
+}
+.contacts li {
+  color: #128aa7;	
+}
+.contries li img {
+	height: 33px;
+	float: right;
+	display: block;
+	margin-top: 1px;
+	position: relative;
+	margin-bottom: 212px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
