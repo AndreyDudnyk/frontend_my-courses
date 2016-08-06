@@ -12,7 +12,7 @@
 .container {
   position: absolute;
   width: 1000px;
-  height: 990px;
+  height: 1000px;
   margin: 38px 130px 35px 153px;
   background-color: white;
 }
@@ -30,16 +30,20 @@
 .logo img {
   float: left;	
   overflow: hidden; 
-  margin: 5px 720px 5px 30px; 	
+  margin: 5px 220px 2px 30px; 
+  width: 253px;
+  height: 120px;	
 }
 .contacts {
   position: absolute;
   float: right;
+  height: 93px;
   margin-top: 5px;
   margin-right: 35px;
   margin-left: 744px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   padding-top: 2px;
+  padding-bottom: 2px;
 }
 li {
   list-style-type: none;
@@ -47,87 +51,103 @@ li {
 .contacts li {
   color: #128aa7;	
 }
-.contries li img {
-  height: 33px;
-  float: right;
-  display: block;
-  margin-top: 1px;
-  position: relative;
-  margin-bottom: 10px;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
+.contacts ul {
+  height: 75px;
+  margin-bottom: 2px;
 }
-.contries li a {
-  float: right;	
+.contries  {
+  width: 350px;
+  float: right;
+  text-align: center;
+  padding-bottom: 1px;
+  overflow: hidden;
+}
+.contries li  {
+  display: inline-block;
+  height: 56px;
+  width: 45px;
+  position: relative;
+  margin-top: 92px;
+}
+.contries li span { 
+  font-size: 12px;
+  line-height: 0;
+  text-decoration: underline;
+}
+.contries li img {
+  width: 29px;
+  height: 29px;
+}
+.center-panel {
+  width: 1000px;
 }
 .center-panel ul {
-  display: block;
+  display: flex;
+  position: relative;
+  flex-flow: row wrap;
+  justify-content: space-around;
   margin: 0;
   padding: 0;
   list-style: none;
+  border: 1px solid grey;
+  background: #303030;
 }
-.center-panel ul li :after {
-  display: block;
-  content: ' ';
-  clear: both;
-  float: none;
-}
-.center-panel ul li  {
+.center-panel  li  {
   float: left;
   position: relative;
   font-size: 14px;
   font-style: Tahoma; 
 }
-.center-panel ul li  a {
+.center-panel  a {
   display: block;
-  padding: 10px;
+  padding: 8px 15px;
   color: white;
-  background-color: grey;
   text-decoration: none;
 }
-/*.center-panel ul li  a :hover {
+.center-panel ul li a :hover {
   background-color: black;
-}*/
-.submenu li   {
+}
+.center-panel .submenu  {
   display: none;
   position: absolute;
-  width: 100%;
-  top: 37px;
-  left: 0;
-  background-color: white;
+  left: 3px;
+  margin: 0;
+  padding: 0;
+  list-style: none; 
+  background-color: grey;
+}
+.center-panel .submenu a {
+  margin-bottom: 1px;
   border: 1px solid grey;
-}
-.submenu ul li  {
-  display: block;
-}
-.submenu ul li  a {
-  display: block;
-  padding: 10px;
   color: white;
   background-color: #303030;
-  text-decoration: none;
 }
-.submenu ul li  a :hover  {
-  text-decoration: underline;
-}
-ul.center-panel  li:hover  ul.submenu {
-    display: block;
+.submenu li:hover {
+  display: block;
 }
 .content {
   width: 900px;
   background: white;
-  clear: both;
-}
-.leftColumn {
-  width: 200px;
-  float: left;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .centerColumn {
-  width: 500px;
+  width: 50%;
+  overflow: hidden;
+  position: relative;
   float: left;
 }
 .rightColumn {
-  width: 200px;
+  width: 20%;
+  overflow: hidden;
+  position: relative;
+  float: right;
+}
+.leftColumn {
+  width: 20%;
+  overflow: hidden;
+  position: relative;
   float: left;
 }
